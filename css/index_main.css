@@ -1454,6 +1454,7 @@ body {position: relative;}
 }
 
 /*모바일 ~ 테블릿*/
+
 @media all and (min-width:320px) and (max-width:1023px) {
   .bg_web_magazine .btn_web_magazine i::before {display: none;}
   .web_magazine .magazine_pcSheet {display: none;}
@@ -1466,9 +1467,7 @@ body {position: relative;}
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .magazine_mobileSheet>div {
-    width: 40%; height: auto;
-  }
+
   .magazine_mobileSheet .mobile_txt {
     background-color: white;
   }
@@ -1490,6 +1489,9 @@ body {position: relative;}
   .magazine_mobileSheet .mobile_txt {
     font-size: 14px;
   }
+  .magazine_mobileSheet>div {
+    width: 40%; height: auto;
+  }
 }
 
 /*테블릿*/
@@ -1499,6 +1501,9 @@ body {position: relative;}
   }
   .bg_web_magazine .web_magazine .con_title .sub_title {
     display: 14px;
+  }
+  .magazine_mobileSheet>div a img {
+    scale: 0.7;
   }
 }
 /*pc*/

@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       }
     })
   }
-  // window.onresize = function(){
-  // document.location.reload();
-  // };
+  window.onresize = function(){
+  document.location.reload();
+  };
 })

@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     $(function(){
       let eleWidth = $('.visual_main_frame ul li').innerWidth(); 
       let state = false;
-      let direction = 'left';
+
     
       function left() {
         stop();
@@ -53,6 +53,11 @@ document.addEventListener("DOMContentLoaded",()=>{
       })
     })
   }
+
+  window.onresize = function(){
+    document.location.reload();
+  };
+
 })
 
 
