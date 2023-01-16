@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울문화재단</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./css/index_main.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+  <script src="./js/notice.js" defer></script>
+  <script src="./js/header.js" defer></script>
+  <script src="./js/artist.js" defer></script>
+  <script src="./js/visual_main.js" defer></script>
+  <script src="./js/web_magazine.js" defer></script>
+  <script src="./js/newsLetter.js" defer></script>
+  <script src="./js/top_btn.js" defer></script>
+</head>
+<body>
+  <p id="top"></p>
+  <div class="header_box">
+
+    <div class="mobile_menu_Sheet">
+      <div class="m_menu_header">
+        <p>전체보기</p>
+        <label class="m_btn_close" for="btn_ham"><img src="./icons/btn_nClose.png" alt=""></label>
+      </div>  
+  
+      <div class="searchbar">
+        <div class="serchbar_box">
+          <select name="search_menu" id="search_menu">
+            <option value="">통합검색</option>
+          </select>
+          <input type="search" name="searchbar" id="searchbar">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+      </div>
+  
+      <div class="loginjoin">
+        <div class="login"><span><img src="./icons/ico_log.png" alt=""></span>로그인</div>
+        <div class="join"><span><img src="./icons/ico_join.png" alt=""></span>회원가입</div>
+      </div>
+  
+      <div class="m_lnbBox">
+        <input type="radio" name="m_lnb" id="m_lnb01" checked>
+        <input type="radio" name="m_lnb" id="m_lnb02">
+        <input type="radio" name="m_lnb" id="m_lnb03">
+        <input type="radio" name="m_lnb" id="m_lnb04">
+        <input type="radio" name="m_lnb" id="m_lnb05">
+        <input type="radio" name="m_lnb" id="m_lnb06">
+        <div class="m_lnb_labelBox">
+          <label for="m_lnb01">사업소개</label>
+          <label for="m_lnb02">예술인공간</label>
+          <label for="m_lnb03">공연/전시/지역문화</label>
+          <label for="m_lnb04">공간소개</label>
+          <label for="m_lnb05">열린광장</label>
+          <label for="m_lnb06">정보공유</label>
+        </div>
+        <div class="m_lnb_sheetBox">
+  
+          <div class="m_lnb_sheetBox01">
+            <nav class="m_lnb01_sub01">예술지원 +
+              <ul>
+                <li><a href="./sub_page/sub.html">예술창작활동지원</a></li>
+                <li><a href="#!">청년예술지원</a></li>
+                <li><a href="#!">원로예술지원</a></li>
+                <li><a href="#!">창작공간 입주공모</a></li>
+                <li><a href="#!">예술지원선정자 검색</a></li>
+                <li><a href="#!">예술지원 자료실</a></li>
+              </ul>
+            </nav>
+         
+            <nav class="m_lnb01_sub02">예술교육 +
+              <ul>
+                <li><a href="#!">운영체계</a></li>
+                <li><a href="#!">학교예술교육</a></li>
+                <li><a href="#!">사회 문화예술교육</a></li>
+                <li><a href="#!">예술교육 거점 공간</a></li>
+                <li><a href="#!">서울형 예술교육 확산</a></li>
+                <li><a href="#!">예술교육 정보플랫폼</a></li>
+                <li><a href="#!">온라인정보 자료관</a></li>
+              </ul>
+            </nav>
+  
+            <nav class="m_lnb01_sub03">시민문화 +
+              <ul>
+                <li><a href="#!">시민문화 사업소개</a></li>
+                <li><a href="#!">지역문화</a></li>
+                <li><a href="#!">생활문화</a></li>
+                <li><a href="#!">축제</a></li>
+                <li><a href="#!">거리예술/서커스</a></li>
+              </ul>
+            </nav>
+
+            <nav class="m_lnb01_sub04">제휴/정책/교류 +
+              <ul>
+                <li><a href="#!">예술제휴 및 메세나 사업소개</a></li>
+                <li><a href="#!">문화정책 개발 및 기획사업 소개</a></li>
+                <li><a href="#!">광역문화재단 네크워크</a></li>
+                <li><a href="#!">세계도시문화포럼_WCCF</a></li>
+                <li><a href="#!">문화정책패널 및 문화향유</a></li>
+                <li><a href="#!">실태조사</a></li>
+              </ul>
+            </nav>
+          
+            <nav class="m_lnb01_sub05"><a href="#!">서울스테이지11</a></nav>
+            <nav class="m_lnb01_sub06"><a href="#!">서울예술희망캠페인</a></nav>
+          </div><!--m_lnb_sheetBox01-->
+  
+          <div class="m_lnb_sheetBox02">
+            <nav class="m_lnb02_sub01">공모신청 +
+              <ul>
+                <li><a href="#!">지원사업 공모</a></li>
+                <li><a href="#!">입주작가 공모</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb02_sub02"><a href="#!">공모안내</a></nav>
+          </div><!--m_lnb_sheetBox02-->
+  
+          <div class="m_lnb_sheetBox03">
+            <nav class="m_lnb03_sub01"><a href="#!">프로그램 신청</a></nav>
+            <nav class="m_lnb03_sub02"><a href="#!">공모대관 신청</a></nav>
+            <nav class="m_lnb03_sub03">시민문화 +
+              <ul>
+                <li><a href="#!">시민문화 사업소개</a></li>
+                <li><a href="#!">지역문화</a></li>
+                <li><a href="#!">생활문화</a></li>
+                <li><a href="#!">축제</a></li>
+                <li><a href="#!">거리예술/서커스</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb03_sub04"><a href="#!">문화누리카드</a></nav>
+          </div><!--m_lnb_sheetBox03-->
+  
+          <div class="m_lnb_sheetBox04">
+            <nav class="m_lnb04_sub01"><a href="#!">창작공간</a></nav>
+  
+            <nav class="m_lnb04_sub02">금천예술공장 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">입주작가</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub03">문래예술공장 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub04">대학로극장 쿼드 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">무대/시설안내</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub05">삼일로창고극장 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">기획 프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub06">서교예술실험센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub07">서서울예술교육센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub08">서울거리예술창작센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">도서정보</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub09">서울무용센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub10">서울연극센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub11">서울예술교육센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub12">서울장애예술창작센터 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">입주작가</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub13">시민청 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">대관안내</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub14">신당창작아케이드 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">입주작가</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub15">연희문학창작촌 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설 및 대관안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">도서정보</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub16">예술청 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공지사항</a></li>
+                <li><a href="#!">공간별 세부 안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">프로그램</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb04_sub17">청년예술청 +
+              <ul>
+                <li><a href="#!">메인</a></li>
+                <li><a href="#!">공간소개</a></li>
+                <li><a href="#!">공간소식</a></li>
+                <li><a href="#!">시설안내</a></li>
+                <li><a href="#!">주요사업</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+          </div><!--m_lnb_sheetBox04-->
+  
+  
+          <div class="m_lnb_sheetBox05">
+            <nav class="m_lnb05_sub01">재단소개 +
+              <ul>
+                <li><a href="#!">공지사항</a></li>
+                <li><a href="#!">채용공고</a></li>
+                <li><a href="#!">창작공간 소식</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb05_sub02">기관소개 +
+              <ul>
+                <li><a href="#!">서울 문화재단 소개</a></li>
+                <li><a href="#!">조직도</a></li>
+                <li><a href="#!">오시는 길</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb05_sub03">웹진 +
+              <ul>
+                <li><a href="#!">문화+서울</a></li>
+                <li><a href="#!">연극인</a></li>
+                <li><a href="#!">줌인</a></li>
+                <li><a href="#!">비유</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb05_sub04">소통창구 +
+              <ul>
+                <li><a href="#!">1:1 문의</a></li>
+                <li><a href="#!">자유게시판</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb05_sub05">문화정책자료 +
+              <ul>
+                <li><a href="#!">최근 연구현황</a></li>
+                <li><a href="#!">진행중인 연구현황</a></li>
+                <li><a href="#!">정책/연구자료</a></li>
+              </ul>
+            </nav>
+          </div><!--m_lnb_sheetBox05-->
+  
+          <div class="m_lnb_sheetBox06">
+            <nav class="m_lnb06_sub01">문화계소식 +
+              <ul>
+                <li><a href="#!">오늘의 서울</a></li>
+                <li><a href="#!">외부기관 소식</a></li>
+                <li><a href="#!">자취구 소식</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb06_sub02">문화예술정보목록 +
+              <ul>
+                <li><a href="#!">기관/단체/기업</a></li>
+                <li><a href="#!">문화예술공간</a></li>
+                <li><a href="#!">문화예술사이트</a></li>
+                <li><a href="#!">문화예술인</a></li>
+              </ul>
+            </nav>
+            <nav class="m_lnb06_sub03"><a href="#!">문화캐스터</a></nav>
+          </div><!--m_lnb_sheetBox06-->
+  
+        </div><!--m_lnb_sheetBox-->
+      </div><!--m_lnbBox-->
+    </div><!--mobile_menu_Sheet-->
+
+
+
+
+    <header class="header">
+      <a href="./index.html">
+        <div class="logobox">
+          <img class="logo_mobile" src="./images/main_logo_국문_가로형_흰색.png" alt="서울문화재단로고">
+          <img class="logo_pc" src="./images/main_logo_국문_세로형_흰색.png" alt="서울문화재단로고">
+        </div>
+      </a>
+      
+
+      <div class="glnb">
+        <nav class="gnb">
+          <ul class="gnb_pc">
+            <li class="login"><a href="#!">로그인</a></li>
+            <li class="join"><a href="#!">회원가입</a></li>
+          </ul>
+          <ul class="gnb_mobile">
+            <li><a href="#!" class="change_lang">ENG<i class="fa-solid fa-angle-down"></i></a></li>
+            <li class="btn_ham_open"><i class="fa-solid fa-bars ham_icon"></i></li>
+            <li class="serch_pc"><a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+          </ul>
+        </nav><!--gnb-->
+
+        <ul class="pc_lnb">
+          <li class="pc_menu01"><a href="#!">사업소개</a></li>
+          <li class="pc_menu02"><a href="#!">예술인공간</a></li>
+          <li class="pc_menu03"><a href="#!">공연/전시/지역문화</a></li>
+          <li class="pc_menu04"><a href="#!">공간소개</a></li>
+          <li class="pc_menu05"><a href="#!">열린광장</a></li>
+          <li class="pc_menu06"><a href="#!">정보공유</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+    
+    <section class="pc_lnb_sheet_box">
+      <div class="sheet01_hide">
+        <div class="pc_lnb_sheet01">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">사업소개</p>
+            <p>서울무화재단이 진행하는<br/>주요사업들을 소개합니다.</p>
+            <li><img src="./icons/pc_lnb01.png" alt="사업소개아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box">
+            <ul>
+              <p class="pc_lnb_title">예술지원</p>
+              <li><a href="./sub_page/sub.html">예술창작활동지원</a></li>
+              <li><a href="#!">청년예술지원</a></li>
+              <li><a href="#!">원로예술지원</a></li>
+              <li><a href="#!">창작공간 입주공모</a></li>
+              <li><a href="#!">예술지원선정자 검색</a></li>
+              <li><a href="#!">예술지원 자료실</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">예술교육</p>
+              <li><a href="#!">운영체계</a></li>
+              <li><a href="#!">학교예술교육</a></li>
+              <li><a href="#!">사회 문화예술교육</a></li>
+              <li><a href="#!">예술교육 거점 공간</a></li>
+              <li><a href="#!">서울형 예술교육 확산</a></li>
+              <li><a href="#!">예술교육 정보플랫폼</a></li>
+              <li><a href="#!">온라인정보 자료관</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">시민문화</p>
+              <li><a href="#!">시민문화 사업소개</a></li>
+              <li><a href="#!">지역문화</a></li>
+              <li><a href="#!">생활문화</a></li>
+              <li><a href="#!">축제</a></li>
+              <li><a href="#!">거리예술/서커스</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">제휴/정책/교류</p>
+              <li><a href="#!">예술제휴 및 메세나 사업소개</a></li>
+              <li><a href="#!">문화정책 개발 및 기획사업 소개</a></li>
+              <li><a href="#!">광역문화재단 네크워크</a></li>
+              <li><a href="#!">세계도시문화포럼_WCCF</a></li>
+              <li><a href="#!">문화정책패널 및 문화향유</a></li>
+              <li><a href="#!">실태조사</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title"><a href="#!">서울스테이지11</a></p>
+              <p class="pc_lnb_title"><a href="#!">서울예술희망캠페인</a></p>
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet01-->
+      </div>
+  
+      <div class="sheet02_hide">
+        <div class="pc_lnb_sheet02">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">예술인공간</p>
+            <p>지역예술인들을 위한 다양한 공모를 소개합니다.</p>
+            <li><img src="./icons/pc_lnb02.png" alt="예술인공간아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box">
+            <ul>
+              <p class="pc_lnb_title">공모신청</p>
+              <li><a href="#!">지원사업 공모</a></li>
+              <li><a href="#!">입주작가 공모</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">공모안내</p>
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet02-->
+      </div><!--sheet_hide02-->
+
+      <div class="sheet03_hide">
+        <div class="pc_lnb_sheet03">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">공연/전시/지역문화</p>
+            <p>지역시민들이 참여 할 수있는 다양한 프로그램들과 공간을 소개합니다.</p>
+            <li><img src="./icons/pc_lnb03.png" alt="공연/전시/지역문화 아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box">
+            <ul>
+              <p class="pc_lnb_title">프로그램신청</p>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">공간대관신청</p>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">시민문화</p>
+              <li><a href="#!">시민문화 사업소개</a></li>
+              <li><a href="#!">지역문화</a></li>
+              <li><a href="#!">생활문화</a></li>
+              <li><a href="#!">축제</a></li>
+              <li><a href="#!">거리예술/서커스</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">문화누리카드</p>
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet03-->
+      </div><!--sheet_hide03-->
+
+      <div class="sheet04_hide">
+        <div class="pc_lnb_sheet04">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">공간소개</p>
+            <p>예술가와 시민의 행복을 위한 문화예술공간입니다.</p>
+            <li><img src="./icons/pc_lnb04.png" alt="공간소개 아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box pcSheet04">
+            <ul>
+              <li><a href="#!"><span class="dot_gray dot"></span>창작공간</a></li>
+              <li><a href="#!"><span class="dot_orange dot"></span>금천예술공장</a></li>
+              <li><a href="#!"><span class="dot_orange dot"></span>문래예술공장</a></li>
+              <li><a href="#!"><span class="dot_peru dot"></span>대학로극장 쿼드</a></li>
+              <li><a href="#!"><span class="dot_red dot"></span>삼일로창고극장</a></li>
+            </ul>
+            <ul>
+              <li><a href="#!"><span class="dot_peru dot"></span>서교예술실험센터</a></li>
+              <li><a href="#!"><span class="dot_blue dot"></span>서서울예술교육센터</a></li>
+              <li><a href="#!"><span class="dot_peru dot"></span>서울거리예술창작센터</a></li>
+              <li><a href="#!"><span class="dot_peru dot"></span>서울무용센터</a></li>
+              <li><a href="#!"><span class="dot_red dot"></span>서울연극센터</a></li>
+            </ul>
+            <ul>
+              <li><a href="#!"><span class="dot_blue dot"></span>서울예술교육센터</a></li>
+              <li><a href="#!"><span class="dot_orange dot"></span>서울장애예술창작센터</a></li>
+              <li><a href="#!"><span class="dot_peru dot"></span>시민청</a></li>
+              <li><a href="#!"><span class="dot_orange dot"></span>신당창작아케이드</a></li>
+              <li><a href="#!"><span class="dot_green dot"></span>연희문학창작촌</a></li>
+            </ul>
+            <ul>
+              <li><a href="#!"><span class="dot_peru dot"></span>예술청</a></li>
+              <li><a href="#!"><span class="dot_peru dot"></span>청년예술청</a></li>
+            </ul>
+            <ul class="dot_info">
+              <span class="dot_red dot"></span>공연 &nbsp;<span class="dot_orange dot"></span>시각&nbsp;<span class="dot_green dot"></span>문학&nbsp;<span class="dot_blue dot"></span>교육&nbsp;<span class="dot_peru dot"></span>기타&nbsp;
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet04-->
+      </div><!--sheet_hide04-->
+
+      <div class="sheet05_hide">
+        <div class="pc_lnb_sheet05">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">열린광장</p>
+            <p>서울무화재단의 소식을 만나보세요</p>
+            <li><img src="./icons/pc_lnb05.png" alt="열린광장 아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box">
+            <ul>
+              <p class="pc_lnb_title">재단소개</p>
+              <li><a href="#!">공지사항</a></li>
+              <li><a href="#!">채용공고</a></li>
+              <li><a href="#!">창작공간 소식</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">기관소개</p>
+              <li><a href="#!">서울 문화재단 소개</a></li>
+              <li><a href="#!">조직도</a></li>
+              <li><a href="#!">오시는 길</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">웹진</p>
+              <li><a href="#!">문화&서울</a></li>
+              <li><a href="#!">연극인</a></li>
+              <li><a href="#!">춤인</a></li>
+              <li><a href="#!">비유</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">소통창구</p>
+              <li><a href="#!">1:1문의</a></li>
+              <li><a href="#!">자유게시판</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">문화정책자료</p>
+              <li><a href="#!">최근 연구현황</a></li>
+              <li><a href="#!">진행중인 연구현황</a></li>
+              <li><a href="#!">정책/연구자료</a></li>
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet05-->
+      </div><!--sheet_hide05-->
+
+      <div class="sheet06_hide">
+        <div class="pc_lnb_sheet06">
+          <div class="pc_menu_intro">
+            <p class="pc_lnb_title">정보공유</p>
+            <p>새로운 문화를 시민과 다함께!</p>
+            <li><img src="./icons/pc_lnb06.png" alt="정보공유 아이콘"></li>
+          </div>
+          <nav class="pc_lnb_box">
+            <ul>
+              <p class="pc_lnb_title">문화계소식</p>
+              <li><a href="#!">오늘의 서울</a></li>
+              <li><a href="#!">외부기관 소식</a></li>
+              <li><a href="#!">자취구소식</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">문화예술정보목록</p>
+              <li><a href="#!">기관/단체/기업</a></li>
+              <li><a href="#!">문화예술공간</a></li>
+              <li><a href="#!">문화예술사이트</a></li>
+              <li><a href="#!">문화예술인</a></li>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">문화캐스터</p>
+            </ul>
+            <ul>
+              <p class="pc_lnb_title">제휴/정책/교류</p>
+              <li><a href="#!">예술제휴 및 메세나 사업소개</a></li>
+              <li><a href="#!">문화정책 개발 및 기획사업 소개</a></li>
+              <li><a href="#!">광역문화재단 네크워크</a></li>
+              <li><a href="#!">세계도시문화포럼_WCCF</a></li>
+              <li><a href="#!">문화정책패널 및 문화향유</a></li>
+              <li><a href="#!">실태조사</a></li>
+            </ul>
+          </nav>
+        </div><!--pc_lnb_sheet06-->
+      </div><!--sheet_hide06-->
+    </section><!--pc_lnb_sheet_box-->
+  </div><!--header_box-->
+
+  <section class="bg_visual_main">
+
+    <div class="mobile_visual_main swiper mySwiper_m">
+      <div class="mobile_visual_main_box swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/visual_main_01_on.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/visual_main_02_on.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/visual_main_03_on.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/visual_main_04_on.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/visual_main_05_on.jpg" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="mobile_visual_main_navi swiper-pagination_m"></div>
+    </div>
+
+
+
+    <div class="visual_main_box">
+      <div class="visual_main_banner">
+        <div class="visual_main_frame">
+          <ul>
+            <li class="visual_main_poster01">
+              <a href="#!">
+                <img src="./images/visual_main_01_on.jpg" alt="">
+              </a>
+              <div class="visual_main_txt_box">
+                <div class="visual_main_txt">
+                  <span>공연</span>
+                  <p>[2022 예술창작활동지원사업 선정작] 박혜수 개인전 <모노포비아-외로움 공포증></p>
+                  <p>기간</p>
+                  <p>2022-09-14 ~ 2022-11-26</p>
+                  <p>장소</p>
+                  <p>아트센터 예술의시간(서울특별시 금천구 범안로9길 23)</p>
+                  <a href="#!">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="visual_main_poster02">
+              <a href="#!">
+                <img src="./images/visual_main_02_on.jpg" alt="">
+              </a>
+              <div class="visual_main_txt_box">
+                <div class="visual_main_txt">
+                  <span>공연</span>
+                  <p>[2022 예술창작활동지원사업 선정작] 김미현 《이인환각연쇄고리》</p>
+                  <p>기간</p>
+                  <p>2022-09-02 ~ 2022-11-28</p>
+                  <p>장소</p>
+                  <p>koldsleep (강북구 인수봉로 301)</p>
+                  <a href="#!">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="visual_main_poster03">
+              <a href="#!">
+               <img src="./images/visual_main_03_on.jpg" alt="">
+              </a>
+              <div class="visual_main_txt_box">
+                <div class="visual_main_txt">
+                  <span>전시</span>
+                  <p>제1회 서울융합예술페스티벌 언폴드엑스 2022(Unfold X 2022)</p>
+                  <p>기간</p>
+                  <p>2022-11-07 ~ 2022-11-19</p>
+                  <p>장소</p>
+                  <p>성수동 에스팩토리A동</p>
+                  <a href="#!">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="visual_main_poster04">
+              <a href="#!">
+                <img src="./images/visual_main_04_on.jpg" alt="">
+              </a>
+              <div class="visual_main_txt_box">
+                <div class="visual_main_txt">
+                  <span>공연</span>
+                  <p>[2022 비넥스트 페스티벌] 연극 <어느 날 문을 열고></p>
+                  <p>기간</p>
+                  <p>2022-11-04 ~ 2022-11-13</p>
+                  <p>장소</p>
+                  <p>문래예술공장 박스씨어터 (서울시 영등포구 경인로 88길 5-4)</p>
+                  <a href="#!">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </li>
+            <li class="visual_main_poster05">
+              <a href="#!">
+                <img src="./images/visual_main_05_on.jpg" alt="">
+              </a>
+              <div class="visual_main_txt_box">
+                <div class="visual_main_txt">
+                  <span>예술교육워크숍</span>
+                  <p>[모집]<2022 서울예술교육센터 아츠포틴즈 가을 시즌 프로젝트> 참여 청소년을 모집합니다.</p>
+                  <p>기간</p>
+                  <p>2022-09-20 ~ 2022-10-10</p>
+                  <p>장소</p>
+                  <p>서울예술교육센터 아츠포틴즈</p>
+                  <a href="#!">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div><!--visual_main_frame-->
+      </div><!--visual_main_banner-->
+
+      <div class="btn_visual_main">
+        <a href="#!" class="btn_left_visual_main"><i class="fa-solid fa-circle-chevron-left"></i></a>
+        <a href="#!" class="btn_right_visual_main"><i class="fa-solid fa-circle-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <p class="visual_main_pick">서울문화재단의 추천 pick!</p>
+
+    <nav class="metaphor_box">
+      <ul class="metaphor_top">
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor01"></div>
+           <p class="metaphor_name">서울스테이지11</p>
+         </a>
+        </li>
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor02"></div>
+            <p class="metaphor_name">대학로극장쿼드</p>
+          </a>
+        </li>
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor03"></div>
+            <p class="metaphor_name">서울예술교육</p>
+          </a>
+        </li>
+      </ul><!--metaphor_top-->
+      <ul class="metaphor_bottom">
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor04"></div>
+            <p class="metaphor_name">자치구문화재단</p>
+          </a>
+        </li>
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor05"></div>
+            <p class="metaphor_name">예술지원시스템</p>
+          </a>
+        </li>
+        <li class="metaphor">
+          <a href="#!">
+            <div class="metaphor06"></div>
+            <p class="metaphor_name">아카이브</p>
+          </a>     
+        </li>
+      </ul><!--metaphor_bottom-->
+    </nav><!--metaphor_box-->
+  </section><!--bg_visual_main-->
+
+
+
+  <section class="exhibition">
+    <div class="con_title">
+      <p class="main_title">오늘의 전시, 공연</p>
+      <p class="sub_title">공연보러가자! 골라보는 재미, 신나는 오늘!</p>
+      <a href="#!" class="pc_btn_more">오늘의 전시/공연 더보기+</a>
+    </div>
+    <a href="#!" class="btn_more">오늘의 전시/공연 더보기+</a>
+
+    <div class="exhibition_box">
+
+      <div class="exhibition_poster_01 poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition01.jpg" alt="오늘의전시,공연 포스터01">
+          <img src="./images/exhibition01_main.jpg" alt="오늘의전시,공연 포스터01">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class01">예술창작워크숍</span>
+          <p>[모집]<2022 서울예술교육센터 아츠포틴즈 가을 시즌 프로젝트> 참여 청소년을 모집합니다.</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-09-20 ~ 2022-10-10</p>
+          <p><strong>장소</strong></p>
+          <p>서울예술교육센터 아츠포틴즈</p>
+        </div>
+      </div>
+
+      <div class="exhibition_poster_02 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition02.jpg" alt="오늘의전시,공연 포스터02">
+          <img src="./images/exhibition02.jpg" alt="오늘의전시,공연 포스터02">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class01">예술창작워크숍</span>
+          <p>2022 서울예술교육랩 <질문의 진화> 오픈 토크#2. "예술교육의 미래를 위한 협력과 연결"</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-10-05 ~ 2022-10-30</p>
+          <p><strong>장소</strong></p>
+          <p>서울문화재단 유튜브 스팍TV</p>
+        </div>
+      </div>
+      <div class="exhibition_poster_03 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition03.jpg" alt="오늘의전시,공연 포스터03">
+          <img src="./images/exhibition03.jpg" alt="오늘의전시,공연 포스터03">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class01">예술창작워크숍</span>
+          <p>2022 서울예술교육랩 <질문의 진화> 감각 확장 워크숍</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-10-05 ~ 2022-10-31</p>
+          <p><strong>장소</strong></p>
+          <p>프로그램별 상이</p>
+        </div>
+      </div>
+      <div class="exhibition_poster_04 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition04.jpg" alt="오늘의전시,공연 포스터04">
+          <img src="./images/exhibition04.jpg" alt="오늘의전시,공연 포스터04">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class01">예술창작워크숍</span>
+          <p>2022 서커스 점핑업 (그룹 아크로바틱의 이해와 실험) 참가자 공개모집</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-09-26 ~ 2022-10-04</p>
+          <p><strong>장소</strong></p>
+          <p>서울거리예술창작센터 1취수장 메인홀</p>
+        </div>
+      </div>
+      <div class="exhibition_poster_05 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition05.jpg" alt="오늘의전시,공연 포스터05">
+          <img src="./images/exhibition05.jpg" alt="오늘의전시,공연 포스터05">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class01">예술창작워크숍</span>
+          <p>2022 창작공간 가을시즌제 연희문학창작촌 '소설가와 사회학자의 대화'</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-11-01 ~ 2022-11-15</p>
+          <p><strong>장소</strong></p>
+          <p>서울문화재단 대학로센터 2층 아고라 & '스팍TV/한국사회학회' 유튜브 온라인 생중계</p>
+        </div>
+      </div>
+      <div class="exhibition_poster_06 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition06.jpg" alt="오늘의전시,공연 포스터06">
+          <img src="./images/exhibition06.jpg" alt="오늘의전시,공연 포스터06">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class02">공연</span>
+          <p>2022 한강노들섬오페라 <마술피리></p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-09-16 ~ 2022-09-30</p>
+          <p><strong>장소</strong></p>
+          <p>한강노들섬 잔디마당 *서울시 용산구 양녕로 445</p>
+        </div>
+      </div>
+      <div class="exhibition_poster_07 poster pc_poster">
+        <div class="exhibition_poster_img">
+          <img src="./images/m_exhibition07.jpg" alt="오늘의전시,공연 포스터07">
+          <img src="./images/exhibition07.jpg" alt="오늘의전시,공연 포스터07">
+        </div>
+        <div class="exhibition_poster_txt">
+          <span class="class class03">전시</span>
+          <p>제1회 서울융합예술페스티벌 언폴드엑스 2022(Unfold X 2022)</p>
+          <p><strong>접수기간</strong></p>
+          <p>2022-11-07 ~ 2022-11-19</p>
+          <p><strong>장소</strong></p>
+          <p>성수동 에스팩토리 A동</p>
+        </div>
+      </div>
+    </div><!--exhibition_box-->
+  </section><!--exhibition-->
+
+
+
+  <input type="radio" name="btn_artist" id="btn_artist01" checked>
+  <input type="radio" name="btn_artist" id="btn_artist02">
+  <section class="artist">
+    <div class="con_title">
+      <p class="main_title">예술인공간</p>
+      <p class="sub_title">예술인을 위한, 예술인을 위한 지원!</p>
+      
+      <div class="btn_artist_box">
+        <label for="btn_artist01">지원사업</label>
+        <label for="btn_artist02">입주작가</label>
+      </div>
+    </div>
+
+    <div class="artist01_sheet artist_sheet">
+      <div class="artist_frame swiper mySwiper">
+        <div class="artist_box swiper-wrapper">
+          <div class="artist01_01 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_01.jpg" alt="지원사업포스터01">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>서울문화재단X도미노피자 <2022 시각예술 신진작가 작품 공모전></p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-10-25 ~ 2022-11-18</p>
+              <p><strong>장소</strong></p>
+              <p>제휴협력팀</p>
+            </div>
+          </div>
+          <div class="artist01_02 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_02.jpg" alt="지원사업포스터02">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>2022년 포르쉐 드리머스 온(Dreamers. On) - 서울 미디어아트 프로젝트 <시티 해커스></p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-08-23 ~ 2022-09-04</p>
+              <p><strong>장소</strong></p>
+              <p>청년예술청</p>
+            </div>
+          </div>
+          <div class="artist01_03 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_03.jpg" alt="지원사업포스터03">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">종합</span>
+              <p>서울거리예술축제 2022 국내참가작 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-05-23 ~ 2022-06-13</p>
+              <p><strong>장소</strong></p>
+              <p>축제팀</p>
+            </div>
+          </div>
+          <div class="artist01_04 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_04.jpg" alt="지원사업포스터04">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>2022 거리예술 넥스트 참가자 공개모집</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-04-29 ~ 2022-05-19</p>
+              <p><strong>장소</strong></p>
+              <p>서울거리예술창작센터</p>
+            </div>
+          </div>
+          <div class="artist01_05 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_05.jpg" alt="지원사업포스터05">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">기타</span>
+              <p>2022 서커스 유망예술인 양성과정 '서커스 펌핑업' 참가자 공개 모집</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-04-25 ~ 2022-05-11</p>
+              <p><strong>장소</strong></p>
+              <p>서울거리예술창작센터</p>
+            </div>
+          </div>
+          <div class="artist01_06 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_06.jpg" alt="지원사업포스터06">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">종합</span>
+              <p>2022년 BENXT(비넥스트) 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-04-22 ~ 2022-05-06</p>
+              <p><strong>장소</strong></p>
+              <p>문래예술공장</p>
+            </div>
+          </div>
+          <div class="artist01_07 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_07.jpg" alt="지원사업포스터07">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>문화예술교육 실천가들을 위한 소소테이블 "우리 함께 해볼까" 운영자 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-04-12 ~ 2022-04-26</p>
+              <p><strong>장소</strong></p>
+              <p>예술교육팀</p>
+            </div>
+          </div>
+          <div class="artist01_08 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_08.jpg" alt="지원사업포스터08">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">기타</span>
+              <p>2022년 시민청 <시민청예술가> 모집</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-03-21 ~ 2022-04-08</p>
+              <p><strong>장소</strong></p>
+              <p>시민청</p>
+            </div>
+          </div>
+          <div class="artist01_09 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_09.jpg" alt="지원사업포스터09">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">기타</span>
+              <p>2022 시민청 시민기획단 <시민청춘> 모집</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-03-21 ~ 2022-04-08</p>
+              <p><strong>장소</strong></p>
+              <p>시민청</p>
+            </div>
+          </div>
+          <div class="artist01_10 swiper-slide">
+            <div class="artist01_img">
+              <img src="./images/contents02_01_10.jpg" alt="지원사업포스터10">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">음악</span>
+              <p>2022 인디음악 생태계 활성화 지원사업 「서울라이브」</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-03-18 ~ 2022-04-04</p>
+              <p><strong>장소</strong></p>
+              <p>서교예술실험센터</p>
+            </div>
+          </div>
+        </div><!--artist_box-->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div><!--artist_frame-->
+     
+    </div><!--artist01_sheet-->
+
+
+
+
+    <div class="artist02_sheet artist_sheet">
+      <div class="artist_frame swiper mySwiper">
+        <div class="artist_box swiper-wrapper">
+          <div class="artist02_01 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_01.jpg" alt="지원사업포스터01">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>서울장애예술창작센터(구 잠실창작스튜디오) 13기 입주작가 정기공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-11-02 ~ 2022-12-06</p>
+              <p><strong>장소</strong></p>
+              <p>잠실창작스튜디오</p>
+            </div>
+          </div>
+          <div class="artist02_02 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_02.jpg" alt="지원사업포스터02">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>2023년 금천예술공장 14기 입주작가 정기공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-10-24 ~ 2022-11-11</p>
+              <p><strong>장소</strong></p>
+              <p>금천예술공장</p>
+            </div>
+          </div>
+          <div class="artist02_03 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_03.jpg" alt="지원사업포스터03">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문학</span>
+              <p>2023 연희문학창작촌 입주작가 정기공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-10-24 ~ 2022-11-11</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌</p>
+            </div>
+          </div>
+          <div class="artist02_04 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_04.jpg" alt="지원사업포스터04">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문화</span>
+              <p>2022 연희문학창작촌 입주작가 4분기 단기지원 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-08-09 ~ 2022-08-18</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌 단기공모</p>
+            </div>
+          </div>
+          <div class="artist02_05 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_05.jpg" alt="지원사업포스터05">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문학</span>
+              <p>2022 연희문학창작촌 입주작가 3분기 단기지원 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-05-06 ~ 2022-05-16</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌 단기공모</p>
+            </div>
+          </div>
+          <div class="artist02_06 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_06.jpg" alt="지원사업포스터06">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문학</span>
+              <p>2022 연희문학창작촌 입주작가 2분기 단기지원 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2022-02-07 ~ 2022-02-18</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌 단기공모</p>
+            </div>
+          </div>
+          <div class="artist02_07 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_07.jpg" alt="지원사업포스터07">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>2022년 신당창작아케이드 13기 입주작가 정기공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2021-11-15 ~ 2021-11-25</p>
+              <p><strong>장소</strong></p>
+              <p>신당창작아케이드</p>
+            </div>
+          </div>
+          <div class="artist02_08 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_08.jpg" alt="지원사업포스터08">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문학</span>
+              <p>2022 연희문학창작촌 입주작가 정기공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2021-11-01 ~ 2021-11-17</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌</p>
+            </div>
+          </div>
+          <div class="artist02_09 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_09.jpg" alt="지원사업포스터09">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">문학</span>
+              <p>2021 연희문학창작촌 입주작가 3분기 단기지원 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2021-05-07 ~ 2021-05-17</p>
+              <p><strong>장소</strong></p>
+              <p>연희문학창작촌 단기공모</p>
+            </div>
+          </div>
+          <div class="artist02_10 swiper-slide">
+            <div class="artist02_img">
+              <img src="./images/contents02_02_10.jpg" alt="지원사업포스터10">
+            </div>
+            <div class="artist_txt">
+              <span class="artist_class">시각</span>
+              <p>2021 잠실창작스튜디오 12기 입주작가 정기 공모</p>
+              <p><strong>접수기간</strong></p>
+              <p>2020-11-16 ~ 2020-12-02</p>
+              <p><strong>장소</strong></p>
+              <p>잠실창작스튜디오</p>
+            </div>
+          </div>
+        </div><!--artist_box-->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div><!--artist_frame-->
+    </div><!--artist02_sheet-->
+  </section><!--artist-->
+
+
+
+  <section class="bg_notice_box"> 
+    <div class="notice_box">
+      <ul class="btn_notice">
+        <li class="notice_on">공지사항</li>
+        <li>공모안내</li>
+        <li>자치구소식</li>
+        <li>보도자료</li>
+      </ul><!--btn_notice-->
+
+      <div class="notice_sheetbox">
+        <div class="notice_sheet01 on_sheet">
+          <div class="notice_sheet01_01">
+            <a href="#!">
+              <p class="notice_sheet_title">시민청</p>
+              <div class="notice_sheet_txt">
+                [모집 안내] 2022 시민청 <다이음 더하기> 참여자 모집
+              </div>
+              <p>2022.11.22</p>
+            </a>
+          </div>
+          <div class="notice_sheet01_02">
+            <a href="#!">
+              <p class="notice_sheet_title">예술청</p>
+              <div class="notice_sheet_txt">
+                [결과발표]2022년 예술거래 아이디어 공모전 <상상, 가능한 거래> 심사결과 발표
+              </div>
+              <p>2022.11.22</p>
+            </a>
+          </div>
+          <div class="notice_sheet01_03">
+            <a href="#!">
+              <p class="notice_sheet_title">미래전략팀</p>
+              <div class="notice_sheet_txt">
+                [2022 서울시민 문화향유 실태조사] 설문조사 참여 안내( 12.30.)
+              </div>
+              <p>2022.11.21</p>
+            </a>
+          </div>
+          <div class="notice_sheet01_04">
+            <a href="#!">
+              <p class="notice_sheet_title">서교예술실험센터</p>
+              <div class="notice_sheet_txt">
+                [대관안내] 서교예술실험센터 2022년 12월 수시대관 안내
+              </div>
+              <p>2022.11.21</p>
+            </a>
+          </div>
+
+          <span class="notice_plus">
+            <a href="https://www.sfac.or.kr/opensquare/notice/notice_list.do">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </span>
+        </div><!--notice_sheet01-->
+        <div class="notice_sheet02">
+          <div class="notice_sheet02_01">
+            <a href="#!">
+              <p class="notice_sheet_title">예술지원정책팀</p>
+              <div class="notice_sheet_txt">
+                2023 서울문화재단 예술지원 통합공모 1차 
+              </div>
+              <p>2022.09.30</p>
+            </a>
+          </div>
+          <div class="notice_sheet02_02">
+            <a href="#!">
+              <p class="notice_sheet_title">삼일로창고극장</p>
+              <div class="notice_sheet_txt">
+                2022 삼일로창고극장 기획사업 <창고개방> [리서치 프로젝트 : 극장활용법] 공모
+              </div>
+              <p>2022.08.31</p>
+            </a>
+          </div>
+          <div class="notice_sheet02_03">
+            <a href="#!">
+              <p class="notice_sheet_title">서교예술실험센터</p>
+              <div class="notice_sheet_txt">
+                [공모] 2022 서교예술실험센터 공성장형 예술실험지원 <링크(LINK)> 참여예술가 모집
+              </div>
+              <p>2022.05.26</p>
+            </a>
+          </div>
+          <div class="notice_sheet02_04">
+            <a href="#!">
+              <p class="notice_sheet_title">예술청</p>
+              <div class="notice_sheet_txt">
+                [모집] 예술청 [예술인통합상담지원센터] 법률컨설팅 참여자 모집
+              </div>
+              <p>2022.04.13</p>
+            </a>
+          </div>
+
+          <span class="notice_plus">
+            <a href="https://www.sfac.or.kr/opensquare/notice/support_list.do">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </span>
+        </div><!--notice_sheet02-->
+        <div class="notice_sheet03">
+          <div class="notice_sheet03_01">
+            <a href="#!">
+              <p class="notice_sheet_title">융합예술팀</p>
+              <div class="notice_sheet_txt">
+              스위스 HEK 초청강연 '다이얼로그 엑스', 17일 <서울융합예술페스티벌> 현장서 개최
+              </div>
+             <p>2022.11.15</p>
+            </a>
+          </div>
+          <div class="notice_sheet03_02">
+            <a href="#!">
+              <p class="notice_sheet_title">홍보마케팅팀</p>
+              <div class="notice_sheet_txt">
+                [제휴협력팀] 신세계엘엔비와 손잡고 예술작품의 상품개발, 유통에서 판매까지
+              </div>
+              <p>2022.11.11</p>
+            </a>
+          </div>
+          <div class="notice_sheet03_03">
+            <a href="#!">
+              <p class="notice_sheet_title">신당창작아케이드</p>
+              <div class="notice_sheet_txt">
+                신당창작아케이드, 입주작가 기획전과 공예상품전시 성수동서 23일 동시 개최
+              </div>
+              <p>2022.11.09</p>
+            </a>
+          </div>
+          <div class="notice_sheet03_04">
+            <a href="#!">
+              <p class="notice_sheet_title">융합예술팀</p>
+              <div class="notice_sheet_txt">
+              서울융합페스티벌 언폴드엑스 2022 개막 (11.7~19)
+              </div>
+              <p>2022.11.07</p>
+            </a>
+          </div>
+          <span class="notice_plus">
+            <a href="https://www.sfac.or.kr/participation/artsnet/borough_news_info.do">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </span>
+        </div><!--notice_sheet03-->
+        <div class="notice_sheet04">
+          <div class="notice_sheet04_01">
+            <a href="#!">
+              <p class="notice_sheet_title">예술지원팀</p>
+              <div class="notice_sheet_txt">
+                서울문화재단, ‘원로예술지원’신설, 5일 공모 접수 개시
+              </div>
+              <p>2022.12.05</p>
+            </a>
+          </div>
+          <div class="notice_sheet04_02">
+            <a href="#!">
+              <p class="notice_sheet_title">공연기획팀</p>
+              <div class="notice_sheet_txt">
+              대학로극장 쿼드 첫 제작공연 <2022 휘이잉>, <환등회> 개막
+              </div>
+              <p>2022.12.01</p>
+            </a>
+          </div>
+          <div class="notice_sheet04_03">
+            <a href="#!">
+              <p class="notice_sheet_title">문화향유팀</p>
+              <div class="notice_sheet_txt">
+                연 11만원 지원 문화누리카드, 발급기간 연장_12월까지 모두 이용하세요
+              </div>
+              <p>2022.11.30</p>
+            </a>
+          </div>
+          <div class="notice_sheet04_04">
+            <a href="#!">
+              <p class="notice_sheet_title">제휴협력팀</p>
+              <div class="notice_sheet_txt">
+              서울예술교육센터, 전시 관람하며 있는 그대로의 나 자신 마주하세요
+              </div>
+              <p>2022.11.30</p>
+            </a>
+          </div>
+
+          <span class="notice_plus">
+            <a href="https://www.sfac.or.kr/info/press.do">
+              <i class="fa-solid fa-plus"></i>
+            </a>
+          </span>
+        </div><!--notice_sheet04-->
+      </div><!--notice_sheetbox-->
+    </div><!--notice_box-->
+  </section><!--bg_notice_box-->
+
+  <section class="online_culture">
+    <div class="con_title">
+      <p class="main_title">온라인 문화</p>
+      <p class="sub_title">문화에 스파크가 튄다! 스팍tv</p>
+    </div>
+    <a href="#!" class="pc_btn_more">온라인 문화 더보기+</a>
+
+    <div class="online_culture_box">
+
+      <div class="online_culture_main">
+        <div class="youtube">
+          <iframe src="https://www.youtube.com/embed/C0ouVgixG0I" title="[서울예술인희망캠페인] 12월 공연/전시 소식 📢" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="online_culture_txt">
+          <p><strong>서울문화재단 공식 유튜브 채널 스팍TV는</strong></p>
+          <p>서울시민의 문화, 예술을 통해 삶의 질을 높이고 서울의 도시경쟁력을 키우고자 태어났습니다.</p>
+          <p>합리적인 지원과 창의적인 문화 사업으로 서울의 미래를 열어 가겠습니다.</p>
+        </div>
+      </div>
+      <div class="online_culture_sub">
+        <a href="#!" class="online_culture_sub01">
+          <div>
+            <img src="./images/online_culture_sub01.jpg" alt="온라인문화 서브링크01">
+          </div>
+          <div class="online_culture_txt">
+            <p>2022 서울예술교육랩 질문의 진화 오픈 토크#2 - 연결하기 [예술교육의 미래를 위한 협력과 연결]</p>
+          </div>
+        </a>
+        <a href="#!" class="online_culture_sub02">
+          <div>
+            <img src="./images/online_culture_sub02.jpg" alt="온라인문화 서브링크02">
+          </div>
+          <div class="online_culture_txt">
+            <p>[서울 스테이지11] 차세대, ‘Colorful Sounds’ 하이라이트</p>
+          </div>
+        </a>
+        <a href="#!" class="online_culture_sub03">
+          <div>
+            <img src="./images/online_culture_sub03.jpg" alt="온라인문화 서브링크03">
+          </div>
+          <div class="online_culture_txt">
+            <p>[아트페스티벌 서울] 서울거리예술축제2022 _ 당신과 나의 거리</p>
+          </div>
+        </a>
+        <a href="#!" class="online_culture_sub04">
+          <div>
+            <img src="./images/online_culture_sub04.jpg" alt="온라인문화 서브링크04">
+          </div>
+          <div class="online_culture_txt">
+            <p>[아트페스티벌 서울] 한강노들섬 오페라 '마술피리'</p>
+          </div>
+        </a>
+        <a href="#!" class="online_culture_sub05">
+          <div>
+            <img src="./images/online_culture_sub05.jpg" alt="온라인문화 서브링크05">
+          </div>
+          <div class="online_culture_txt">
+            <p>[제1회 서울문화예술포럼] 포스트 코로나 문화예술 전망과 서울의 문화전략_요약영상</p>
+          </div>
+        </a>
+        <a href="#!" class="online_culture_sub06">
+          <div>
+            <img src="./images/online_culture_sub06.jpg" alt="온라인문화 서브링크06">
+          </div>
+          <div class="online_culture_txt">
+            <p>[서울예술교육 페스티벌] 나를 만나는 시간 _김태연, 김은미</p>
+          </div>
+        </a>
+      </div><!--online_culture_sub-->
+    </div><!--online_culture_box-->
+  </section><!--online_culture-->
+  
+
+  <section class="bg_web_magazine">
+    <div class="web_magazine">
+      <div class="con_title">
+        <p class="main_title"># Web_Magazine</p>
+        <p class="sub_title">서울문화재단의 다양한 소식을 전합니다!</p>
+      </div>
+      <a href="#!" class="btn_web_magazine"><i class="fa-solid fa-rotate-right"></i></a>
+      <div class="web_magazine_box magazine_pcSheet">
+        <div class="web_magazine_left">
+          <div class="web_magazine01">
+            <a href="#!" class="web_magazine_img change01"> <!--웹진 포스터-->
+              <img src="./images/web_magazine01.png" alt="문학전문웹진 비유">
+            </a>
+            <a href="#!" class="web_magazine_txt change_txt01">
+              <div>
+                <p class="pc_txt">문학 전문 웹진<span style="color:blue">비유</span><br/>
+                  서울문화재단의 무용 전문 
+                  웹 매거진 '비유'에서
+                  다양한 정보를 확인하세요.</p>
+                <p class="mobile_txt">문학 전문 웹진 <span style='color:blue'>비유</span></p>
+              </div>
+            </a>
+          </div><!--web_magazine01-->
+        </div><!--web_magazine_left-->
+        <div class="web_magazine_right">
+          <div class="web_magazine01">
+            <a href="#!" class="web_magazine_img change02"> <!--웹진 포스터-->
+              <img src="./images/web_magazine02.jpg" alt="문화서울플러스">
+            </a>
+            <a href="#!" class="web_magazine_txt change_txt02">
+              <div>
+                <p class="pc_txt">문화예술 종합월간지 <span style="color:green">문화플러스서울</span><br/>
+                  서울문화재단의 문화예술
+                  웹 매거진 채널 '문화서울플러스'에서
+                  다양한 정보를 확인하세요.</p>
+                <p class="mobile_txt">문화예술 종합월간지 <span style='color:green'>문화플러스서울</span></p>
+              </div>
+            </a>
+          </div><!--web_magazine02-->
+        </div><!--web_magazine_right-->
+      </div><!--web_magazine_box magazine_pcSheet-->
+
+
+   
+      <div class="magazine_mobileSheet">
+        <div class="web_magazine01">
+          <a href="#!">
+            <img src="./images/web_magazine01.png" alt="문학전문웹진 비유">
+          </a>
+          <div>
+            <p class="mobile_txt">문학 전문 웹진 <span style='color:blue'>비유</span></p>
+          </div>
+        </div>
+        <div class="web_magazine02">
+          <a href="#!">
+            <img src="./images/web_magazine02.jpg" alt="문화서울플러스">
+          </a>
+            <div>
+              <p class="mobile_txt">종합월간지<span style='color:green'>문화플러스서울</span></p>
+            </div>
+        </div>
+        <div class="web_magazine03">
+          <a href="#!">
+            <img src="./images/web_magazine03.png" alt="무용전문웹진 춤:in">
+          </a>
+          <div>
+            <p class="mobile_txt">무용 전문 웹진<span style='color:blue'>춤:in</span></p>
+          </div>
+        </div>
+        <div class="web_magazine04">
+          <a href="#!">
+            <img src="./images/web_magazine04.jpg" alt="연극전문웹진 연극:in">
+          </a>
+          <div>
+            <p class="mobile_txt">연극 전문 웹진<span style='color:blue'>연극:in</span></p>
+          </div>
+        </div>
+      </div><!--magazine_mobileSheet-->
+
+         
+
+    </div><!--web_magazine-->
+  </section><!--bg_web_magazine end-->
+
+  <section class="artmarket">
+    <div class="con_title">
+      <p class="main_title">아트마켓 거래소</p>
+      <p class="sub_title">자발적 참여로 이루어지는 온/오프라인 예술 거래장터</p>
+    </div>
+
+    <div class="artmarket_box">
+      <div class="artmarket01">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class01 class">나눔</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket.png" alt="아트마켓프로필01">
+              </div>
+            </div>
+  
+            <div class="artmarket_txt">
+              <p>예술가가 자신의 자리를 찾아가는 삶의 과정에 대해 고민해보는 보드게임 테이블 참여자 모집</p>
+              <p>등록자 : 공현진 </p>
+              <p>조회수 : 272 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>
+        </a>
+      </div><!--artmarket01-->
+      <div class="artmarket02">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class02 class">교환</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket (2).png" alt="아트마켓프로필02">
+              </div>
+            </div>
+  
+            <div class="artmarket_txt">
+              <p>자신의 작품을 영어로 해외에 소개해보는 것을 목표로 영어스터디모임을 해보고 싶습니다 ㅎ</p>
+              <p>등록자 : michael </p>
+              <p>조회수 : 300 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>
+        </a>
+      </div><!--artmarket02-->
+      <div class="artmarket03">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class02 class">교환</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket (3).png" alt="아트마켓프로필03">
+              </div>
+            </div>
+  
+            <div class="artmarket_txt">
+              <p>반전.평화 퍼포먼스와 관련한 스터디모임을 해보고 싶습니다 ㅎ</p>
+              <p>등록자 : michael </p>
+              <p>조회수 : 673 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>
+        </a>
+      </div><!--artmarket03-->
+      <div class="artmarket04">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class01 class">나눔</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket (4).png" alt="아트마켓프로필04">
+              </div>
+            </div>
+
+            <div class="artmarket_txt">
+              <p>창작과정과 연기훈련의 지혜를 나눕니다.</p>
+              <p>등록자 : 임형택 </p>
+              <p>조회수 : 1860 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>  
+        </a>
+      </div><!--artmarket04-->
+      <div class="artmarket05">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class02 class">교환</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket (5).png" alt="아트마켓프로필05">
+              </div>
+            </div>
+
+            <div class="artmarket_txt">
+              <p>[공지사항] 뉴 아트마켓 예술거래소 공지사항 및 이용안내</p>
+              <p>등록자 : 예술청 관리자 </p>
+              <p>조회수 : 1686 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>
+        </a>
+      </div><!--artmarket05-->
+      <div class="artmarket06">
+        <a href="#!">
+          <p class="artmarket_headline"><span class="class02 class">교환</span> <span class="state">진행중</span></p>
+          <div class="artmarket_info">
+            <div class="artmarket_profile">
+              <div>
+                <img src="./images/artmarket (6).png" alt="아트마켓프로필06">
+              </div>
+            </div>
+
+            <div class="artmarket_txt">
+              <p>글과 해금의 만남- [이구와 도화] 도서</p>
+              <p>등록자 : 유호정 </p>
+              <p>조회수 : 1377 </p>
+              <p>댓글 : 0 </p>
+            </div>
+          </div>
+        </a>
+      </div><!--artmarket06-->
+    </div><!--artmarket_box-->
+  </section><!--artmarket end-->
+
+  <section class="online_gallery">
+    <div class="online_gallery_container">
+      <div class="online_gallery_container_top">
+        <img src="./images/online_gallery.jpg" alt="">
+        <img src="./images/online_gallery (2).jpg" alt="">
+        <img src="./images/online_gallery (3).jpg" alt="">
+        <img src="./images/online_gallery (4).jpg" alt="">
+        <img src="./images/online_gallery (5).jpg" alt="">
+        <img src="./images/online_gallery (6).jpg" alt="">
+        <img src="./images/online_gallery (7).jpg" alt="">
+        <img src="./images/online_gallery (8).jpg" alt="">
+        <img src="./images/online_gallery (9).jpg" alt="">
+        <img src="./images/online_gallery (10).jpg" alt="">
+        <img src="./images/online_gallery.jpg" alt="">
+        <img src="./images/online_gallery (2).jpg" alt="">
+        <img src="./images/online_gallery (3).jpg" alt="">
+        <img src="./images/online_gallery (4).jpg" alt="">
+        <img src="./images/online_gallery (5).jpg" alt="">
+      </div>
+      
+      <div class="online_gallery_container_bottom">
+        <img src="./images/online_gallery (11).jpg" alt="">
+        <img src="./images/online_gallery (12).jpg" alt="">
+        <img src="./images/online_gallery (13).jpg" alt="">
+        <img src="./images/online_gallery (14).jpg" alt="">
+        <img src="./images/online_gallery (15).jpg" alt="">
+        <img src="./images/online_gallery (16).jpg" alt="">
+        <img src="./images/online_gallery (17).jpg" alt="">
+        <img src="./images/online_gallery (18).jpg" alt="">
+        <img src="./images/online_gallery (19).jpg" alt="">
+        <img src="./images/online_gallery (20).jpg" alt="">
+        <img src="./images/online_gallery (11).jpg" alt="">
+        <img src="./images/online_gallery (12).jpg" alt="">
+        <img src="./images/online_gallery (13).jpg" alt="">
+        <img src="./images/online_gallery (14).jpg" alt="">
+        <img src="./images/online_gallery (15).jpg" alt="">
+      </div>
+    </div><!--online_gallery_container-->
+
+    <div class="online_gallery_txt">
+      <p>아카이브</p>
+      <p>서울문화재단에서 열린<br/>행사들을 한 눈에 만나보세요!</p>
+      <a href="#!">자세히보기+</a>
+    </div>
+  </section><!--online_gallery-->
+
+
+  <footer class="bg_footer">
+    <div class="footer">
+      <ul class="m_footer_lnb">
+        <li><a href="#!">개인정보처리방침</a></li>
+        <li><a href="#!">이메일무단수집거부</a></li>
+        <li><a href="#!">시민서비스 현장</a></li>
+        <li><a href="#!">찾아오시는 길</a></li>
+        <li><a href="#!">직원찾기</a></li>
+        <li><a href="#!">부조리통합신고</a></li>
+        <li><a href="#!">인권침해구제안내</a></li>
+      </ul><!--m_footer_lnb-->
+
+      <div class="footer_sns">
+        <div>
+          <a href="#!"></a> 
+          <a href="#!"></a>
+          <a href="#!"></a>
+        </div>
+
+        <input type="checkbox" name="family_site" id="family_site">
+        <label class="btn_family_site" for="family_site">패밀리 사이트</label>
+        <ul class="family_site">
+          <h2>패밀리사이트</h2>
+          <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 서울거리예술축제</a></li>
+          <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 남산예술센터 디지털 아카이브</a></li>
+          <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 서울예술교육</a></li>
+          <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 시민청</a></li>
+          <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 아트서울기부투게더</a></li>
+        </ul>
+      </div>
+
+      <button class="btn_news" type="button">뉴스레터 신청하기</button>
+      <a href="#!" class="footer_logo">
+        <img src="./images/main_logo_black.png" alt="footer_logo">
+      </a>
+
+      <div class="footer_info">
+        <p>서울문화재단 | 사업자등록번호 : 201-82-04361 대표전화 : 02-3290-7000</p>
+        <p>주소 : (우) 02589 서울특별시 동대문구 청계천로 517</p>
+        <p>COPYRIGHTⓒ 2018 SFAC. ALL RIGHT RESERVED.</p>
+      </div>
+    </div><!--footer(mobile)-->
+
+    <div class="pc_footer">
+
+      <div class="pc_footer_top">
+        <a href="./index.html" class="pc_footer_logo"><img src="./images/main_logo_black.png" alt="서울문화재단로고"></a>
+
+        <div class="pc_footer_btnbox">
+          <button type="button" class="btn_news">뉴스레터 신청하기</button>
+          <div class="footer_sns">
+            <div>
+              <a href="#!"></a> 
+              <a href="#!"></a>
+              <a href="#!"></a>
+            </div>
+          </div>
+          <input type="checkbox" name="family_site" id="family_site">
+            <label class="btn_family_site" for="family_site">패밀리 사이트</label>
+            <ul class="family_site">
+              <h2>패밀리사이트</h2>
+              <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 서울거리예술축제</a></li>
+              <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 남산예술센터 디지털 아카이브</a></li>
+              <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 서울예술교육</a></li>
+              <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 시민청</a></li>
+              <li><a href="#!"><i class="fa-solid fa-caret-right"></i> 아트서울기부투게더</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="pc_footer_bottom">
+        <ul class="m_footer_lnb">
+          <li><a href="#!">개인정보처리방침</a></li>
+          <li><a href="#!">이메일무단수집거부</a></li>
+          <li><a href="#!">시민서비스 현장</a></li>
+          <li><a href="#!">찾아오시는 길</a></li>
+          <li><a href="#!">직원찾기</a></li>
+          <li><a href="#!">부조리통합신고</a></li>
+          <li><a href="#!">인권침해구제안내</a></li>
+        </ul><!--m_footer_lnb-->
+
+        <div class="footer_info">
+          <p>서울문화재단 | 사업자등록번호 : 201-82-04361 대표전화 : 02-3290-7000</p>
+          <p>주소 : (우) 02589 서울특별시 동대문구 청계천로 517</p>
+          <p>COPYRIGHTⓒ 2018 SFAC. ALL RIGHT RESERVED.</p>
+        </div>
+      </div>
+    </div>
+  </footer><!--bg_footer-->
+
+
+  <div class="news_letter">
+    <div class="form_box">
+      <form action="" class="news_letter_form">
+        <h3>뉴스레터 신청</h3>
+        <p>다양한 정보를 받아보세요! 매달 새로운 소식을 전해드립니다.</p>
+        <div>
+          <p><strong>웹진 뉴스레터</strong></p>
+          <label for="webjin01"><input type="checkbox" name="webjin01" id="webjin01"> 연극웹진 연극in</label>
+          <label for="webjin02"><input type="checkbox" name="webjin02" id="webjin02"> 무용웹진 춤:in</label>
+          <label for="webjin03"><input type="checkbox" name="webjin03" id="webjin03"> 문학웹진 비유</label>
+        </div>
+        <div>
+          <p><strong>홍보 뉴스레터</strong></p>
+          <label for="promotion01"><input type="checkbox" name="promotion01" id="promotion01"> 서울문화재단 소식지</label>
+          <label for="promotion02"><input type="checkbox" name="promotion02" id="promotion02"> 대학로극장 쿼드 뉴스레터</label>
+          <label for="promotion03"><input type="checkbox" name="promotion03" id="promotion03"> 예술교육 관련 정보(공모,교육 등)</label>
+          <label for="promotion04"><input type="checkbox" name="promotion04" id="promotion04"> 기타 사업 및 이벤트 정보</label>
+        </div>
+        <div>
+          <input type="checkbox" name="terms" id="terms" style="display: none;">
+          <p class="terms">
+            <strong>개인정보 수집 및 이용에 관한 사항</strong>
+            <label for="terms" class="terms_more">자세히 보기<span><i class="fa-solid fa-chevron-up"></i></span></label>
+          </p>
+          <div class="terms_info">
+            <p>① 수집ㆍ이용 목적:웹진 비회원 구독 신청에 따라 정기 발송용 개인정보 수집</p>
+            <p>② 수집하려는 개인정보의 항목 : 이름, 이메일주소</p>
+            <p>③ 개인정보의 보유 및 이용기간 : 수신거부 의사 전달 시 까지</p>
+            <p>④ 개인정보 수집 동의에 거부하실 수 있으며, 동의 거부 시 구독하실 수 없습니다.</p>
+          </div>
+          <label for="terms_chk"><input type="checkbox" name="terms_chk" id="terms_chk"> 내용을 숙지하였으며,해당 내용에 동의합니다.</label>
+        </div>
+        <div class="user_info">
+          <p class="name"><label for="name" class="name01">성명</label><input type="text" name="" id="terms_name"></p>
+          <p class="mail">
+            <label for="mail" class="mail01">이메일</label><input type="email" name="" id="first_mail">
+            <label for="" id="hypen" class="hypen">@</label>
+            <input type="email" name="" id="last_mail">
+            <select name="" id="address">
+              <option value="">직접입력</option>
+              <option value="http://www.naver.com">naver.com</option>
+              <option value="http://www.nate.com">nate.com</option>
+              <option value="http://www.daum.net">daum.net</option>
+              <option value="http://www.hotmail.com">hotmail.com</option>
+              <option value="http://www.gmail.com">gmail.com</option>
+            </select>
+          </p>
+          <button type="submit" id="btn_submit" class="btn_submit">구독신청</button>
+        </div>
+      </form>
+      <button type="button" class="close_news">닫기</button>
+    </div>        
+  </div>
+
+  <a href="#top" id="btn_top" class="btn_top"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+</body>
+</html>
