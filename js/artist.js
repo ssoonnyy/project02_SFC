@@ -8,11 +8,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      }
     });
   }else if(matchMedia("all and (min-width:601px) and (max-width: 1023px)").matches){
     var swiper = new Swiper(".mySwiper", {
@@ -22,11 +18,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      }
     });
   }else if(matchMedia("all and (min-width: 1024px)").matches){
     var swiper = new Swiper(".mySwiper", {
@@ -36,11 +28,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      }
     });
   }
 

@@ -10,7 +10,10 @@ document.addEventListener("DOMContentLoaded",()=>{
   let state = false
 
   if(matchMedia("all and (min-width:302px) and (max-width:1023px)").matches){
-  
+    var swiper = new Swiper(".magazine_box", {
+      effect: "cards",
+      grabCursor: true,
+    });
   }else if(matchMedia("all and (min-width:1024px)").matches){
     toggleBtn.addEventListener('click',()=>{
       if(!state) {

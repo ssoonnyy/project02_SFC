@@ -500,8 +500,7 @@ body {position: relative;}
     font-size: 16px;
     bottom: 1%;
   }
- 
-  /* .mobile_visual_main .swiper-wrapper {height: 70vh;} */
+
   .bg_visual_main .mobile_visual_main .mobile_visual_main_box>div{
     width: 90%; height: auto;
 
@@ -1011,16 +1010,7 @@ body {position: relative;}
   padding: 10px; box-sizing: border-box;
 }
 .artist .artist01_sheet {position: relative;}
-.artist .swiper-button-next{
-  position: absolute;
-  right: 0; top: 50%;
-  transform: translateY(-50%);
-}
-.artist .swiper-button-prev {
-  position: absolute;
-  left: 0; top: 50%;
-  transform: translateY(-50%);
-}
+
 
 /*스와이프 end*/
 /*공통*/
@@ -1465,17 +1455,27 @@ body {position: relative;}
     margin: 0 21px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+  }
+  .magazine_mobileSheet .swiper {
+    width: 50%;
+  }
+  .magazine_mobileSheet .swiper .swiper-wrapper > .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  } 
+  .magazine_mobileSheet .swiper .swiper-wrapper > .swiper-slide .m_magazine_tex{
+    background-color: #000000;
   }
 
-  .magazine_mobileSheet .mobile_txt {
-    background-color: white;
-  }
-  .magazine_mobileSheet>div>a{
-    display: block;
-  }
-  .magazine_mobileSheet>div:nth-child(1),
-  .magazine_mobileSheet>div:nth-child(2){margin-bottom: 40px;}
+
+
 
 }
 /*모바일*/
@@ -1486,12 +1486,7 @@ body {position: relative;}
   .bg_web_magazine .web_magazine .con_title .sub_title {
     display: none;
   }
-  .magazine_mobileSheet .mobile_txt {
-    font-size: 14px;
-  }
-  .magazine_mobileSheet>div {
-    width: 40%; height: auto;
-  }
+
 }
 
 /*테블릿*/
@@ -1502,9 +1497,7 @@ body {position: relative;}
   .bg_web_magazine .web_magazine .con_title .sub_title {
     display: 14px;
   }
-  .magazine_mobileSheet>div a img {
-    scale: 0.7;
-  }
+
 }
 /*pc*/
 @media all and (min-width:1024px) and (max-width:1340px) {
